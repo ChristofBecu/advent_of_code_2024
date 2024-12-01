@@ -8,7 +8,7 @@ int main() {
   std::vector<int> leftNumbers;
   std::vector<int> rightNumbers;
 
-  std::fstream file("input.txt");
+  std::fstream file("./input");
 
   std::stringstream buffer;
   buffer << file.rdbuf();
